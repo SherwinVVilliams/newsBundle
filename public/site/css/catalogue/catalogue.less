@@ -1,0 +1,345 @@
+
+.catalogue__wrapper {
+  position: relative;
+
+  &:after {
+    background: url(../../img/catalogue/catalogue.png) 50% 50% no-repeat;
+    top: 30px;
+  }
+}
+
+.catalogue__content {
+  padding-bottom: 25px!important;
+  background-color: #fff1c7;
+  &:before {
+    background: url("../../img/main/block2/patern_yellow.svg") 50% 50% repeat;
+    background-size: 15px;
+  }
+
+}
+
+.catalogue__top {
+  padding-bottom: 79px;
+  background-color: #fff1c7;
+}
+.catalogue__bott-wrap{
+  position: relative;
+  z-index: 3;
+  margin-top: 85px;
+}
+.catalogue__filter{
+  li{
+    line-height: 30px;
+  }
+  .active{
+    a{
+      color: #ff8d2e;
+
+    }
+  }
+  display: flex;
+
+  margin-left: 15px;
+  padding-right: 15px;
+  flex-wrap: wrap;
+  li{
+    padding: 0 15px;
+  }
+  a{
+    color: #a4a4a4;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover{
+      color: #ff8d2e;
+      transition: 0.5s;
+    }
+  }
+}
+.cataloguu__bott-title{
+  margin-bottom: 12px;
+  padding-left: 30px;
+  h2{
+    color: #434343;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+}
+.catalogue__button-disc{
+  .button__orange{
+    color: #ffffff;
+    font-family: "Montserrat-ExtraBold",sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    /* Text style for "Акции" */
+    letter-spacing: 1.43px;
+    &:hover{
+      color: #ff4c29;
+    }
+  }
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.catalogue__button-disc,.catalogue__button-company{
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.catalogue__button{
+  display: flex;
+  justify-content: space-between;
+  .button__redBag,.button__redFull{
+    height: 40px;
+    width: 100%;
+    min-width: 120px;
+    &:before,&:after{
+      width: 25px;
+    }
+  }
+}
+.categories__shop-title{
+  margin-right: 35px;
+  h2{
+    color: #434343;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+}
+.categories__shop-sel{
+  .jq-selectbox__select{
+    margin-top: 0!important;
+    width: 331px;
+  }
+  .jq-selectbox{
+    width: auto;
+  }
+  select{
+    cursor: pointer;
+    width: 331px;
+    height: 33px;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    color: #a4a4a4;
+    font-family: "Montserrat-Regular",sans-serif;
+    padding-left: 13px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    option{
+      padding: 10px 0;
+    }
+  }
+}
+.categories__shop{
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+
+}
+.categories__shop-row{
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: #fafafa;
+}
+.catalogue__main{
+  position: relative;
+  margin-top: -76px;
+}
+.catalog__shops-content{
+  display: none;
+}
+.catalog__shops-content.active{
+  display: block;
+}
+.categories__shop-text{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  &:before{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 1px;
+    background: #acacac;
+    top: -15px;
+    content: '';
+  }
+  span{
+    color: #434343;
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    position: relative;
+  }
+}
+.catalogue .shown a:hover:before {
+  opacity: 0!important;
+}
+.catalogue .shown:hover{
+  opacity: 0.7;
+}
+.catalogue .shown{
+
+  transition: 0.5s;
+}
+.catalog__main-shops{
+  .owl-nav{
+    button{
+
+    }
+  }
+}
+
+.shopping-shops__tabs__content .owl-carousel .owl-nav button.owl-prev{
+  left: 0;
+  background: #f6f6f6 !important;
+}
+.shopping-shops__tabs__content .owl-carousel .owl-nav button.owl-prev:hover{
+  background: #d4f7ff !important;
+}
+.btn__hide{
+  display: none;
+}
+.categories__btn-ajax{
+  position: relative;
+  z-index: 10;
+  width: 330px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:before,&:after{
+    width: 28px;
+  }
+  &:hover:before{
+    height: 100%;
+  }
+  &:hover:after{
+    height: 100%;
+  }
+  &:hover{
+    color: #ff8d2e!important;
+  }
+  color: #ffffff!important;
+  font-family: "Montserrat-ExtraBold",sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  /* Text style for "Показать е" */
+  letter-spacing: 1.43px;
+}
+.shops__item-text{
+  text-align: center;
+  position: relative;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  &:before{
+    position: absolute;
+    content: '';
+    top: -20px;
+    left: 7%;
+    width: 86%;
+    height: 1px;
+    background: #acacac;
+  }
+  span{
+    color: #434343;
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+
+  }
+}
+.gride__catalogue{
+  .item{
+    height: 330px;
+    .shown{
+      height: 100%;
+    }
+  }
+}
+.grid__catalogue-row{
+  width: 100%;
+}
+.catalogue__logo{
+  height: 100%;
+  position: relative;
+
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.incompatible__main{
+  margin-top: 0;
+}
+.incompatible__top{
+  padding-bottom: 0;
+}
+.incompatible__info-title{
+  padding-left: 58px;
+  margin-top: 70px;
+  margin-bottom: 33px;
+  h2{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+}
+.incompatible__info-content{
+  margin-bottom: 50px;
+  background: #f8f8f8;
+  padding: 30px 58px;
+  border-radius: 5px;
+  position: relative;
+  &:before{
+    position: absolute;
+    content: '';
+    background: url("../../img/main/block2/patern_gray(1).svg") repeat;
+    background-size: 15px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  p{
+    color: #8b8b8b;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    z-index: 3;
+
+  }
+}
+.catalogue .shown:hover img{
+  opacity: 0.7;
+
+}

@@ -1,0 +1,555 @@
+.profile__container {
+  position: relative;
+  z-index: 5;
+
+}
+
+.profile__wrapper {
+  position: relative;
+
+  &:after {
+    background: url(../../img/profile/profile.png) 50% 50% no-repeat;
+    top: 30px;
+  }
+}
+
+.profile__content {
+  padding-bottom: 150px !important;
+  background-color: #d4f7ff;
+  &:before {
+    background: url("../../img/main/block2/patern_blue.svg") 50% 50% repeat;
+    background-size: 15px;
+  }
+
+}
+
+.profile__top {
+  padding-bottom: 56px;
+  background-color: #d4f7ff;
+}
+
+.profile__wrap {
+  position: relative;
+  margin-top: -111px;
+  z-index: 4;
+  background-color: #fff;
+  box-shadow: 8px 27px 89px 9px rgba(68, 68, 70, 0.15);
+  border-radius: 10px;
+  margin-bottom: 112px;
+}
+.jq-selectbox__select{
+  &:hover{
+    border-color: #b9f3ff;
+  }
+}
+.profile__form-title {
+  padding-bottom: 14px;
+  h2 {
+    color: #434343;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-left: calc(25% + 14px);
+
+  }
+}
+
+.profile__form {
+  padding-bottom: 20px;
+  padding-top: 33px;
+  input {
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    padding-left: 18px;
+    color: #434343;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .profile__user-wrap span {
+    color: #434343;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-right: 28px;
+    margin-top: 13px;
+  }
+}
+
+.buttons__wrap {
+  padding-bottom: 20px;
+  button{
+    margin: 0;
+  }
+  .button__grey{
+    outline: 0;
+    min-width: auto;
+    &:hover{
+      color: #fff;
+    }
+  }
+  .button__orange{
+    color: #ffffff;
+    font-family: "Montserrat-ExtraBold",sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    /* Text style for "Сохранить" */
+    letter-spacing: 1.43px;
+    height: 40px;
+    &:hover{
+      color: #ff8d2e!important;
+    }
+  }
+}
+
+.profile__password {
+  display: flex;
+  justify-content: flex-end;
+
+  span {
+    display: flex;
+
+    width: 20%;
+    color: #434343;
+    font-family: 'Montserrat-Regular',sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 28px;
+  }
+}
+
+.infouser__inp-wrap {
+  .error{
+    margin: 0;
+  }
+  width: 75%;
+  input {
+    width: 100%;
+    outline: 0;
+  }
+}
+
+.infouser__inp {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  .error {
+
+    margin: 0;
+  }
+  .jq-selectbox{
+    width: 75%;
+
+  }
+  .jq-selectbox__select{
+    height: 38px;
+    margin-top: 0!important;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .jq-selectbox__select-text{
+    color: #a4a4a4;
+    margin-top: 0;
+  }
+  .jq-selectbox li{
+    color: #a4a4a4;
+  }
+  select {
+    width: 75%;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    padding-left: 18px;
+    color: #a4a4a4;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+
+  }
+}
+
+.infouser__city {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  label.error {
+    margin: 0;
+    height: 32px;
+  }
+
+  .infouser__city-two {
+    width: 50%;
+    input {
+      width: 100%;
+    }
+  }
+  .infouser__city-one {
+    input {
+      width: 100%;
+    }
+    width: 23%;
+    margin-right: 2%;
+  }
+}
+
+.ui-menu {
+  width: 365px !important;
+  li {
+    color: #a4a4a4;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
+.infouser__address {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.infouser__house, .infouser__room {
+
+  margin-top: 22px;
+}
+
+.infouser__address-wrap {
+  .error{
+    margin-left: 0;
+  }
+  &:first-child {
+
+  }
+  width: 36.5%;
+  input {
+    width: 100%;
+  }
+}
+
+.infouser__address-wrap-marg {
+  margin-right: 2%;
+}
+
+.infouser__buttons {
+
+}
+
+.buttons__wrap {
+  position: relative;
+  border-bottom: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25%;
+  width: 75%;
+  margin-bottom: 30px;
+  margin-top: 44px;
+}
+
+.infouser__button1, .infouser__button2 {
+  width: 252px;
+  margin: 0 0 22px;
+  cursor: pointer;
+}
+
+.infouser__button1, .infouser__button-password1 {
+  background: #fff ;
+  border-color: #e7e7e7;
+  color: #bababa;
+  cursor: pointer;
+
+  &:hover {
+    color: #bababa;
+  }
+  &:before {
+    background: #e7e7e7;
+  }
+  &:after {
+    background: #e7e7e7;
+  }
+}
+
+.infouser__button-password2 {
+  cursor: pointer;
+}
+
+.button__infouser {
+
+  border-radius: 5px;
+  border: 2px solid #e7e7e7;
+  outline: 0 !important;
+  position: relative;
+  &:after, &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 28px;
+    background-color: #e7e7e7;
+    z-index: 2;
+  }
+  &:before {
+    left: 0;
+  }
+  &:after {
+    right: 0;
+  }
+}
+
+.infouser__buttons {
+  button {
+    width: 45%;
+  }
+  .button__orange {
+    &:before {
+      width: 28px;
+    }
+    &:after {
+      width: 28px;
+    }
+    &:hover:before {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.button__no-active{
+  pointer-events:none;
+  background: #e7e7e7;
+  color: #bababa;
+  &:before{
+    background: #bababa;
+  }
+  &:after{
+    background: #bababa;
+  }
+  border-color: #bababa;
+}
+.settings__title {
+  h2 {
+    color: #434343;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}
+
+.notice__label, .interest__label {
+  margin-top: 21px;
+  p ,span{
+    color: #8b8b8b;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 38px;
+    margin: 0 15px;
+    font-size: 13px;
+  }
+  input[type=checkbox] {
+    display: none;
+  }
+  label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    background-color: #fafafa;
+  }
+  label:before {
+    border-radius: 3px;
+  }
+  input[type=checkbox]:checked + label:before {
+    content: "";
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+    background: url("/img/four/mark.png") 50% 50% no-repeat;
+  }
+}
+
+.infouser__settings {
+  margin-left: 25%;
+  margin-top: 38px;
+}
+
+.settings__title {
+  h2 {
+    margin-left: 27px;
+    color: #434343;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}
+
+.settings__notice {
+  margin-top: 13px;
+}
+
+.settings__interest {
+  margin-top: 38px;
+}
+
+.notice__title, .interest__title {
+  p {
+    margin-left: 27px;
+    color: #434343;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+}
+
+.registr__popup-title {
+  h2 {
+    text-align: center;
+    color: #ff8d2e;
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-bottom: 29px;
+  }
+}
+
+.registr__popup-goodluck {
+  h2 {
+    text-align: center;
+    color: #ff8d2e;
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+}
+
+.registr__popup-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  p {
+    color: #434343;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 435px;
+    padding-bottom: 20px;
+  }
+
+}
+
+.registr__popup-after {
+  display: none;
+}
+
+.profile__change-text {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  p {
+    text-align: center;
+    max-width: 332px;
+    color: #a4a4a4;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
+.profile__change-pass {
+  display: none;
+}
+
+.profile__container {
+  position: relative;
+}
+
+.profile__figure1, .profile__figure2 {
+  position: absolute;
+}
+
+.profile__figure1 {
+  top: 170px;
+  left: 1%;
+}
+.profile__figure2 {
+  top: 145px;
+  right: 0;
+}
+.profile__infouser{
+  width: 100%;
+  .error{
+    padding-left: 18px;
+  }
+}
+.infouser__region{
+  .jq-selectbox ul{
+    height: 200px;
+    overflow: scroll;
+  }
+}
+.infouser__password,.infouser__password2,.infouser__password-check{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.infouser__password__check{
+  position: relative;
+}
+.password__eye{
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  z-index: 4;
+}
+#js__recoveryPassword{
+  display: none;
+}
+.ui-autocomplete {
+  max-height: 200px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+  /* add padding to account for vertical scrollbar */
+  padding-right: 20px;
+}

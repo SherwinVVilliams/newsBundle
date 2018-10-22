@@ -1,0 +1,41 @@
+.hamburger svg{
+    position: fixed;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*cursor: pointer;*/
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    width: 100px;
+}
+
+.hamburger svg path{
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke: black;
+    fill: none;
+    transition: all .5s ease-in-out;
+}
+
+/* In menu form */
+
+.top_bar,
+.bottom_bar{
+    stroke-dasharray: 240px 910px;
+}
+
+.middle_bar{
+    stroke-dasharray: 240px 240px;
+}
+
+/* In cross form */
+
+.header_menu_hamburger .top_bar,
+.header_menu_hamburger .bottom_bar{
+    stroke-dashoffset: -650px;
+}
+
+.header_menu_hamburger .middle_bar{
+    stroke-dasharray: 0px 220px;
+    stroke-dashoffset: -120px;
+}

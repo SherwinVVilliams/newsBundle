@@ -1,0 +1,67 @@
+h2{
+    color: @black-dark;
+    font-size: 36px;
+    line-height: 48px;
+    font: @SemiBold;
+}
+h3{
+    color: @black-dark;
+    font-size: 30px;
+    line-height: 36px;
+    font: @Regular;
+}
+h4{
+    color: @black-dark;
+    font-size: 18px;
+    line-height: 24px;
+    font: @Regular;
+}
+h5{
+    color: @black-dark;
+    font-size: 16px;
+    line-height: 22px;
+    font: @Regular;
+}
+
+p{
+    color: @black-dark;
+    font-size: 13px;
+    line-height: 18px;
+    font: @Regular;
+}
+label{
+    color: @black-dark;
+    font-size: 12px;
+    line-height: 16px;
+    font: @Regular;
+}
+
+ul li{
+    color: @black-dark;
+    font-size: 13px;
+    line-height: 18px;
+    font: @Regular;
+}
+ul ol{
+    color: @black-dark;
+    font-size: 13px;
+    line-height: 18px;
+    font: @Regular;
+}
+
+.section-header{
+    height: 88px;
+    background: red;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+
+

@@ -1,0 +1,226 @@
+@media (max-width: 1199px) {
+    .female__things{
+        margin-bottom: 15px;
+    }
+    .global__caption{
+        margin-left: 90px;
+    }
+    .table__tr{
+        height: 50px;
+    }
+    .table__delivery{
+        height: 93px!important;
+    }
+}
+@media (max-width: 1300px) {
+    .rate__content:before{
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .rate__top{
+        margin-top: 70px;
+    }
+    .table__tr{
+        height: 50px;
+    }
+    .table__delivery {
+        height: 93px;
+    }
+
+
+    .global__caption {
+        margin-left: 45px;
+    }
+    .rate__wrapper:after{
+        width: 60%;
+    }
+
+
+}
+@media (max-width: 767px) {
+    .rate{
+        margin-top: 70px;
+    }
+    .global__caption{
+        flex-direction: column;
+    }
+    .global__caption li {
+        width: 220px;
+    }
+    .global__content-row{
+        margin: 0;
+        padding: 0 15px;
+    }
+    .global__form-name{
+        margin-bottom: 10px;
+    }
+
+
+    .global__input input{
+        margin-left: 15px;
+    }
+    .rate__title:before{
+        height: calc(100% - 17px);
+    }
+    .global__tabs-title{
+        align-items: center;
+        flex-direction: column;
+    }
+    .global__tabs-title p{
+        margin-bottom: 10px;
+    }
+    .global__caption{
+        margin-left: 0;
+    }
+    .rate__question{
+        padding-top: 50px;
+    }
+    .global__caption li:after{
+        display: none;
+    }
+    .global__caption li.active:before{
+        width: 102%;
+        left: -2px;
+    }
+
+}
+@media (max-width: 575px) {
+    .rate__info-text{
+        padding: 28px;
+    }
+    .rate__title-img{
+        margin-top: 10px;
+    }
+    .rate__info{
+        margin-top: 30px;
+    }
+    .info__list-item span{
+        font-size: 12px;
+    }
+    .things__content-size{
+        padding-left: 0;
+    }
+    .info__list-item{
+        padding-right: 10px;
+    }
+    .things__content-title span{
+        font-size: 12px;
+    }
+    .irkutst__tabs-title{
+        flex-direction: column;
+    }
+    .irkutsk__caption{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .rate__question{
+        margin-bottom: 40px;
+    }
+
+    .things__content{
+        display: none;
+    }
+    .rate__popup{
+        margin: 0 15px;
+    }
+    .rate__input{
+        margin: 0 auto;
+        width: 240px;
+    }
+    .rate__write{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rate__write p {
+        margin-bottom: 10px;
+    }
+    .rate__write-inp {
+        width: 100%;
+    }
+
+
+    .table__sliders-js{
+
+    }
+    .global__content-row{
+        padding: 0;
+    }
+    .table__tr{
+        padding: 0 0 0 10px;
+    }
+    .table__sliders{
+        padding: 0!important;
+    }
+    .table__name-list li{
+        font-size: 12px!important;
+    }
+    .table__slider span{
+        font-size: 12px!important;
+    }
+    .table__name-list .table__tr{
+        display: flex;
+        align-items: center;
+    }
+    .table__slider .table__tr{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .global__tabs-title{
+        flex-direction: column;
+
+    }
+    .global__tabs-title p {
+        margin-bottom: 10px;
+    }
+    .global__caption{
+
+    }
+    .rate__global{
+        margin-top: 25px;
+    }
+
+    .rate__global-title h2{
+        font-size: 25px;
+    }
+    .global__content-wrapper{
+        margin-top: 25px;
+    }
+    .rate__question .set-question__popup{
+        margin: 15px auto 0;
+        width: 90%;
+    }
+    .rate__question .set-question__popup a{
+        height: 100%!important;
+    }
+    .rate__question .set-question__popup a:hover:before{
+        height: 100%!important;
+    }
+    .rate__wrapper:after{
+        display: none;
+    }
+    .rate__img{
+        display: block;
+    }
+    .rate__content{
+        padding-bottom: 50px;
+    }
+    .rate__img img{
+        width: 100%;
+    }
+    .irkutsk__title h2{
+        font-size: 24px;
+    }
+}
+@media (max-width: 640px) {
+    .rate__popup textarea{
+        width: 100%;
+    }
+}
+@media (max-width: 1280px) {
+    .rate__title:before{
+        width: 100%;
+    }
+}

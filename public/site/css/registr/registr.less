@@ -1,0 +1,190 @@
+.registr__block {
+  margin-bottom: 200px;
+  margin-top: 51px;
+
+}
+.registr__form{
+  box-shadow: 8px 27px 89px 9px rgba(68, 68, 70, 0.15);
+  border-radius: 5px;
+  border: 1px solid #fafafa;
+  background-color: #ffffff;
+  padding: 45px 0 41px;
+  position: relative;
+  z-index: 4;
+}
+.registr__title{
+  h2{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    position: relative;
+    padding-bottom: 14px;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 75px;
+      height: 1px;
+      background-color: #acacac;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+.registr__bundlebox{
+  label.error{
+    padding-top: 3px;
+    font-size: 12px;
+  }
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .form__orange{
+    margin: 11px auto 8px auto;
+  }
+}
+.registr__email{
+  margin: 21px 0 0px;
+  width: 331px;
+  height: 38px;
+  border-radius: 3px;
+  border: 1px solid #ececec;
+  background-color: #ffffff;
+  padding-left: 15px;
+  color: #a4a4a4;
+  font-family: "Montserrat-Regular",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.registr__check{
+  position: relative;
+  &:before{
+    border-radius: 3px;
+  }
+  cursor: pointer;
+  span{
+    color: #8b8b8b;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  a{
+    color: #ff8d2e;
+    position: relative;
+    &:before{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+
+      content: '';
+      width: 100%;
+      height: 2px;
+      background-color: #ff8d2e;
+    }
+    &:hover:before{
+      animation: anim__line-check 0.8s forwards ease-out;
+    }
+
+  }
+}
+@keyframes anim__line-check {
+  0%{
+    width: 0;
+    background-color: #ff8d2e;
+  }
+  100%{
+    width: 100%;
+    background-color: #ff8d2e;
+  }
+}
+
+.registr__block .registr__check-wrap .error{
+  padding-left: 71px;
+}
+ .registr__check-wrap {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+    //.error{
+    //  opacity: 0;
+    //  visibility: hidden;
+    //  width: 0;
+    //  height: 0;
+    //  margin: 0;
+    //}
+
+   .registr__check {
+     display: inline-block;
+     cursor: pointer;
+     position: relative;
+     padding-left: 38px;
+     margin:0 15px;
+     font-size: 13px;
+   }
+   input[type=checkbox] {
+     visibility: hidden;
+     width: 0;
+   }
+   .registr__check:before {
+     content: "";
+     display: inline-block;
+     position: absolute;
+     left: 0;
+     top:50%;
+     transform: translateY(-50%);
+     width: 23px;
+     height: 23px;
+     border-radius: 5px;
+     border: 1px solid #ececec;
+     background-color: #fafafa;
+   }
+   .registr__check:before {
+     border-radius: 3px;
+   }
+   input[type=checkbox]:checked + .registr__check:before {
+
+   }
+ }
+.registr__check-before{
+  &:before{
+    content: "";
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+    background: url("/img/four/mark.png") 50% 50% no-repeat;
+  }
+}
+.js__read-check{
+  display: none;
+  max-width: 760px;
+  height: 630px;
+}
+.btn__form .button__orange{
+  &:hover:before{
+    height: 100%;
+  }
+}
+.example__popup{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  a{
+    color: orangered;
+    padding-bottom: 15px;
+    font-size: 20px;
+
+  }
+}
+#js__recoveryPassword{
+  .btn__form button{
+    margin-top: 25px;
+  }
+  input{
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,337 @@
+@media (max-width: 1199px) {
+    .about__top-wrap:before{
+        width: 100%;
+    }
+    .about__img1 {
+        left: 8%;
+    }
+    .about__img2 {
+        left: 24%;
+    }
+    .about__img3 {
+        left: 58%;
+    }
+    .about__boon-left{
+        top: -78px;
+    }
+    .about__boon-right1{
+        top: -137px;
+    }
+    .about__boon-right2{
+        top: -89px;
+    }
+    .about__boon-right3{
+        top: -99px;
+    }
+    .boon__block h2{
+        height: 73px;
+    }
+    .just__img-right{
+        width: 40%;
+        top: 18px;
+        right: 0;
+    }
+    .just__img-left{
+        width: 34%;
+        top: 50%;
+        margin-top: -166px
+    }
+    .about__reviews-logo{
+        right: -80px;
+    }
+}
+@media (max-width: 991px) {
+    .about__contacts-logo{
+        display: none;
+    }
+    .about__square{
+        padding: 15px;
+        min-height: auto;
+    }
+    .boon__block-img-right{
+
+    }
+    .square__icon img{
+        width: 75px;
+        height: 61px;
+    }
+    .square__text h2{
+        line-height: 21px;
+    }
+    .about__reviews-logo{
+        display: none;
+    }
+    .block2__bundlebox-right,.block2__bundlebox-left{
+        display: none;
+    }
+    .about__img-wrap{
+        display: none;
+    }
+    .about__title{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .about__boon-img{
+        display: none;
+    }
+    .about__all-photo{
+        display: block;
+    }
+    .about__top-wrap:before{
+        top: 10%;
+        height: 90%;
+    }
+    .mission__info h2{
+        font-size: 30px;
+    }
+    .mission__info li{
+        font-size: 14px!important;
+        line-height: 18px!important;
+        padding-bottom: 10px;
+    }
+    .mission__info li:before{
+        top: 10px!important;
+    }
+    .mission__img-all{
+        display: block;
+    }
+    .mission__img{
+        display: none;
+    }
+    .about__square{
+        margin-bottom: 15px;
+    }
+    .about__page{
+        padding-top: 100px;
+    }
+    .about__boon-right1,.about__boon-right2,.about__boon-right3{
+        display: none;
+    }
+    .about__boon-all{
+        display: block;
+    }
+    .boon__content{
+        padding: 30px 0;
+    }
+    .just__img-left{
+        display: none;
+    }
+    .just__img-right{
+        width: 60%;
+    }
+    .contacts__info a{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts__info-title{
+        text-align: center;
+        padding-left: 0;
+    }
+    .about__top-wrap{
+        padding-bottom: 40px;
+    }
+
+}
+@media (max-width: 767px) {
+    .mission__img-all{
+        margin-top: -90px;
+    }
+    .about__block2{
+        margin-top: 60px;
+    }
+    .mission__info h2{
+        margin-bottom: 5px;
+    }
+    .boon__block h2{
+        height: auto;
+        padding-top: 15px;
+    }
+    .about__company{
+        margin-top: 70px;
+    }
+    .block2__title p{
+        line-height: 28px;
+    }
+    .contact__popup .popup_agreement__descript{
+        margin-left: 50px;
+        height: 300px;
+    }
+    .contact__popup{
+        width: 80%;
+    }
+    .mission{
+        padding: 20px 0 40px;
+        margin-top: 60px;
+    }
+    .mission__info{
+        margin-top: 20px;
+        padding-left: 44px;
+    }
+    .square__text h2{
+        text-align: center;
+        padding-left: 0;
+        font-size: 14px;
+    }
+    .boon__block-img-right{
+        order: -11;
+        margin-bottom: 30px;
+    }
+    .about__reviews{
+        margin-top: 50px;
+    }
+    .just__info h2{
+        font-size: 25px;
+    }
+    .just__img-right{
+        display: none;
+    }
+    .just__img-all{
+        margin-top: -78px;
+        display: block;
+        padding: 0 15px;
+    }
+    .just__wrap{
+        padding: 30px 0;
+    }
+    .contacts__info-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about__boon-all{
+        margin-top: -90px;
+    }
+    .about__contacts-logo{
+        display: none;
+    }
+    .about__title{
+        padding-bottom: 0;
+    }
+    .about__page-logo{
+        display: none;
+    }
+    .about__page{
+        padding-top: 60px;
+    }
+    .about__contacts-container{
+        padding-top: 60px;
+    }
+    .contacts__info{
+        margin-top: 10px;
+    }
+    .about__questions{
+        margin-top: 60px;
+    }
+
+}
+@media (max-width: 575px) {
+    .boon__block p{
+        max-width: 100%;
+    }
+    .about__block2{
+        margin-top: 35px;
+    }
+    .just__btn {
+        margin-top: 23px;
+    }
+    .just__info h2{
+        line-height: 33px;
+    }
+    .boon__block{
+        padding-left: 44px;
+    }
+
+    .contact__popup .popup_agreement__descript{
+        margin-left: 15px;
+    }
+    .block2__arrow{
+        display: none;
+    }
+    .block2__anim-item{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+    .mission__info h2{
+        font-size: 25px;
+    }
+    .block2__anim{
+        margin-top: 25px;
+    }
+    .block2__infotext{
+        margin-top: 25px;
+    }
+    .mission{
+        margin-top: 80px;
+    }
+    .about__page{
+        padding-top: 25px;
+    }
+    .boon__block{
+        margin-bottom: 15px;
+    }
+    .about__boon{
+        margin-top: 80px;
+    }
+    .just{
+        margin-top: 80px;
+    }
+    .contacts__info-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .info__phone-item a{
+        display: block;
+    }
+    .contacts__info-office{
+        justify-content: center;
+    }
+    .block2__title span{
+        font-size: 25px;
+    }
+    .about__contacts-logo{
+        display: none;
+    }
+    .about__contacts-container{
+        padding-top: 25px;
+    }
+    .about__contacts-title h2{
+        font-size: 25px;
+    }
+    .contacts__info-office p{
+        padding-left: 30px;
+    }
+    .contacts__info{
+        margin-top: 7px;
+    }
+    .about__top-wrap:before{
+        width: 100%!important;
+    }
+    .about__questions{
+        margin-top: 25px;
+    }
+    .contacts__info-title h2{
+        padding-left: 0;
+    }
+    .contacts__info-flex-right{
+        width: 290px;
+    }
+    .contacts__info-flex-left{
+        width: 290px;
+    }
+
+    .about__title h2{
+        font-size: 25px;
+    }
+}
+@media (max-width: 1400px) {
+    .about__top-wrap:before{
+        width: 102%;
+    }
+}
+@media (max-width: 460px) {
+    .office__name-popup{
+        flex-direction: column;
+        align-items: center;
+    }
+}

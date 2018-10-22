@@ -1,0 +1,361 @@
+.less-error-message{
+  display:none!important;
+}
+.rate{
+  margin-top: 88px;
+  margin-bottom: 100px;
+}
+.rate__top{
+  background-color: #d4f7ff;
+}
+.rate__title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-top: 16px;
+  &:before{
+    position: absolute;
+    content: '';
+    width: 105%;
+    height: 163px;
+    bottom: 0;
+    left: 0;
+    background: url("../img/rate/patern_blue.svg")50% 50% repeat;
+    background-size: 15px;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+  h2{
+    color: #434343;
+    font-family: "Montserrat-SemiBold",sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    /* Text style for "Вопросы и" */
+    letter-spacing: 0.9px;
+    padding-left: 48px;
+  }
+}
+.rate__info{
+
+  margin-top: 78px;
+}
+.rate__info-text{
+  background: #f8f8f8;
+  padding: 28px 79px;
+  position: relative;
+  border-radius: 10px;
+  &:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: url("../img/rate/patern_gray(1).svg") repeat;
+    background-size: 20px;
+    opacity: 0.4;
+  }
+  p{
+    position: relative;
+    z-index: 4;
+    color: #8b8b8b;
+    font-family: 'Montserrat-Regular',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  p+p{
+    margin-top: 18px;
+  }
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  li{
+    list-style: none;
+  }
+}
+
+//rate__irkutsk start
+.rate__irkutsk{
+  margin-top: 65px;
+}
+.irkutsk__title{
+  text-align: center;
+  h2{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+}
+.irkutsk__tabs{
+  margin-top: 56px;
+}
+.irkutsk__content {
+  display: none;
+}
+.irkutsk__caption{
+  li{
+    cursor: pointer;
+  }
+}
+.irkutsk__content.active {
+  display: block;
+}
+.irkutst__tabs-title{
+  display: flex;
+  align-items: center;
+  p{
+    color: #434343;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+}
+.irkutsk__caption{
+  display: flex;
+  margin-left: 20px;
+  border: 2px solid #e7e7e7;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  li{
+    span{
+      color: #bababa;
+      font-family: "Montserrat-ExtraBold",sans-serif;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 18px;
+      text-transform: uppercase;
+    }
+
+    padding: 14px 0;
+    width: 125px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+  }
+  li.active{
+    position: relative;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 105%;
+      background-color: #00c1f6;
+      top: -2px;
+      left: 0;
+      border-radius: 30px;
+      box-shadow: 1px 5px 16px rgba(68, 68, 70, 0.15);
+    }
+    span{
+      color: #fff;
+      position: relative;
+      z-index: 5;
+    }
+
+  }
+}
+.irkutsk__content{
+  margin-top: 25px;
+}
+.female__things{
+  box-shadow: 2px 6px 24px rgba(68, 68, 70, 0.1);
+  border-radius: 10px;
+  border: 1px solid #fafafa;
+  background-color: #ffffff;
+  padding: 25px 14px 14px 14px;
+}
+.things__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2{
+    color: #434343;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+}
+.things__title.active{
+  i{
+    font-size: 30px;
+  }
+}
+.things__plus {
+  width: 31px;
+  height: 31px;
+  border: 1px solid #ff8d2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  i{
+    font-size: 11px;
+    color: #ff8d2e;
+  }
+  &:hover{
+    background: #ff8d2e;
+  }
+  &:hover i{
+    color: #fff;
+  }
+}
+.things__content{
+  margin-top: 6px;
+}
+.things__content-title{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 17px;
+  padding-bottom: 13px;
+  &:before{
+    position: absolute;
+    width: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 2px;
+    background-color: #e7e7e7;
+  }
+  span{
+    color: #bababa;
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+}
+.things__content-size{
+  padding-left: 30px;
+}
+.goods__item{
+  padding: 6px 40px 6px 6px;
+  display: flex;
+  width: 100%;
+  span{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  &:nth-child(odd){
+    background: #fafafa;
+  }
+}
+.goods__name{
+  width: 90%;
+}
+.panel {
+  display: none;
+  overflow: hidden;
+}
+.goods__child-arrow {
+  &:hover path{
+    fill: #ff8d2e;
+  }
+  svg{
+    width: 14px;
+    height: 19px;
+    transform: rotate(135deg);
+  }
+}
+.goods__child-title{
+  display: flex;
+  justify-content: space-between;
+  background: #d4f7ff;
+  border-radius: 14px;
+  padding: 5px 50px 5px 15px;
+  cursor: pointer;
+}
+.goods__child-title.active{
+  transition: 1s;
+  svg{
+    transform: rotate(-45deg);
+  }
+}
+.goods__child-name{
+  color: #434343;
+  font-family: "Montserrat-SemiBold",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.goods__child{
+  margin: 5px 0;
+}
+.child__info-list{
+  padding-left: 0;
+}
+.child__info-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  width: 100%;
+  height: 110px;
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+}
+.goods__child-info{
+  margin-top: 8px;
+}
+.info__list-item{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 5px 40px 5px 9px;
+  &:nth-child(odd){
+    background: #fafafa;
+  }
+  span{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+.acord__trans{
+  display: flex;
+  transition: 1s;
+}
+.child__info-name{
+  width: 30%;
+}
+.rate__question{
+  margin-bottom: 110px;
+}
+.rate__button{
+  padding: 12px 40px;
+}
+//rate__irkutsk end
+.ppc p {
+  color: red;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,3 @@
+$(function () {
+    varClass.varible
+});

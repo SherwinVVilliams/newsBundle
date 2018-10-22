@@ -1,0 +1,317 @@
+.invoice{
+  background: #fafafa;
+}
+.invoice__top{
+  background: #d4f7ff;
+  padding: 52px 0 27px;
+}
+.invoice__top-title{
+  margin-top: 24px;
+  padding-left: 32px;
+  h2{
+    span{
+      color: #ff8d2e;
+    }
+    font-family: "Montserrat-SemiBold",sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #434343;
+    letter-spacing: 0.9px;
+  }
+}
+.invoice__top-bread{
+  padding-left: 32px;
+  span{
+    color: #a4a4a4;
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.33px;
+    position: relative;
+    padding: 0 10px;
+  }
+  a{
+    transition: 0.8s;
+    color: #a4a4a4;
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.33px;
+    position: relative;
+    padding: 0 10px;
+    text-decoration: underline;
+    text-decoration-color:#a4a4a4 ;
+    text-underline-position: under;
+
+    &:hover{
+      text-decoration: underline;
+      text-decoration-color:#ff8d2e ;
+      text-underline-position: under;
+      color: #ff8d2e;
+    }
+    &:first-child{
+      padding-left: 0;
+    }
+    &:before{
+      position: absolute;
+      content: '/';
+      right: 0;
+      top: 2px;
+      color: #a4a4a4;
+      font-family: "Montserrat-Medium",sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0.33px;
+    }
+    &:last-child{
+      &:before{
+        display: none;
+      }
+    }
+  }
+}
+.invoice__content{
+  background: #fafafa;
+  padding-top: 35px;
+  padding-bottom: 110px;
+}
+.invoice__descrip{
+  padding: 29px 5px 38px;
+  box-shadow: 2px 6px 24px rgba(68, 68, 70, 0.1);
+  border-radius: 10px;
+  border: 1px solid #fafafa;
+  background-color: #ffffff;
+  .invoice__info-title{
+    margin-right: 17px;
+    margin-left: 17px;
+  }
+}
+.invoice__info{
+  padding: 29px 22px 38px;
+  box-shadow: 2px 6px 24px rgba(68, 68, 70, 0.1);
+  border-radius: 10px;
+  border: 1px solid #fafafa;
+  background-color: #ffffff;
+}
+.invoice__info-title{
+  padding-bottom: 16px;
+  position: relative;
+  &:before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e7e7e7;
+  }
+  h2{
+    color: #434343;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}
+.invoice__info-name{
+  li{
+    display: flex;
+
+    padding-bottom: 6px;
+  }
+}
+.invoice__name-wrap{
+  span{
+    color: #a4a4a4;
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  width: 25%;
+}
+.invoice__descrip-wrap{
+  span{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  margin-left: 5%;
+  width: 70%;
+  a{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    &:before{
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #ff8d2e;
+    }
+    &:hover:before{
+      animation: anim__counting 0.8s forwards ease-out;
+    }
+  }
+}
+.invoice__info-wrapper{
+  padding-top: 36px;
+  display: flex;
+  .invoice__table-bcg{
+    padding: 0!important;
+  }
+}
+.invoice__info-descrip{
+  padding-left: 35px;
+  li{
+    padding-bottom: 6px;
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 310px;
+  }
+  a{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    &:before{
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #ff8d2e;
+    }
+    &:hover:before{
+      animation: anim__counting 0.8s forwards ease-out;
+    }
+  }
+}
+.invoice__table-bcg{
+  background: #fafafa;
+  padding: 15px 0;
+  width: 100%;
+  table.dataTable{
+    width: 100%!important;
+  }
+  table.dataTable tbody tr{
+    background: inherit;
+  }
+  table.dataTable thead th, table.dataTable tfoot th{
+    font-weight: normal;
+  }
+  table.dataTable thead th, table.dataTable thead td{
+    padding: 8px 15px;
+  }
+  table.dataTable tbody th, table.dataTable tbody td{
+    padding: 8px 15px;
+  }
+  table.dataTable thead th{
+    border-bottom: 1px solid #e7e7e7;
+  }
+}
+
+//#table_id2 > thead > tr > th:nth-child(2){
+//  padding: 8px 0;
+//}
+//#table_id2 > tbody > tr > td:nth-child(2){
+//  padding: 8px 0;
+//}
+//#table_id2 > tbody > tr > td:nth-child(5){
+//  padding: 8px 0;
+//}
+//#table_id2 > thead > tr > th:nth-child(5){
+//  padding: 8px 0;
+//}
+//#table_id2 > thead > tr > th:nth-child(4){
+//  padding: 8px 0;
+//}
+//#table_id2 > tbody > tr > td:nth-child(4){
+//  padding: 0;
+//}
+.invoice__info-table{
+  position: relative;
+
+  width: 100%;
+
+  thead{
+    th{
+      color: #a4a4a4;
+      font-family: "Montserrat-Medium",sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 18px;
+    }
+  }
+  tbody{
+    td{
+      color: #434343;
+      font-family: "Montserrat-Regular",sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+  a{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    display: inline-block;
+
+
+    &:before{
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #ff8d2e;
+    }
+    &:hover:before{
+      animation: anim__counting 0.8s forwards ease-out;
+    }
+  }
+}
+.invoice__info-status{
+
+}
+.invoice__info-all{
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 48px;
+  p{
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    span{
+      font-family: "Montserrat-SemiBold",sans-serif;
+    }
+  }
+}

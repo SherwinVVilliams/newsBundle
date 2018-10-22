@@ -1,0 +1,211 @@
+@import "template.less";
+
+footer {
+  background: #5a5a5a;
+  margin-top: -15px;
+  .soc_icon {
+    .icon {
+      display: flex;
+      margin-left: 23px;
+      }
+  }
+}
+
+.footer__up {
+  border-bottom: 1px solid #4e4e4e;
+  padding-bottom: 15px;
+  display: flex;
+  .col-logo{
+    width: 10%;
+    order: 1;
+  }
+  .col-shopping{
+    width: 33%;
+    order: 2;
+  }
+  .col-menu{
+    width: 38%;
+    order: 3;
+  }
+  .col-but{
+    width: 20%;
+    order: 4;
+  }
+}
+
+.footer__logo {
+  margin-top: 53px;
+  width: 110px;
+  height: 105px;
+  margin-left: -4px;
+  img {
+    width: 110px;
+    height: 105px;
+    max-width: 100%;
+  }
+}
+
+.footer__title {
+  margin-top: 65px;
+  h5 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 35px;
+    margin-bottom: 32px;
+    margin-right: 35px;
+    &:extend(.type_font__SemiBold);
+
+  }
+}
+.icon .fab{
+  font-size: 20px;
+  margin: 0 10px;
+  color: #858789;
+}
+.icon .fa-facebook-f{
+  font-size: 18px;
+}
+
+
+.fa-facebook-f:hover{
+  color: #7288bb;
+}
+.fa-instagram:hover{
+  color: #e8788f;
+}
+.fa-vk:hover{
+  color: #4c75a3;
+}
+.fa-odnoklassniki:hover{
+  color: #f4a663;
+}
+.fa-twitter:hover{
+  color: #84c3f3;
+}
+.fa-telegram-plane:hover{
+  color: #8cc0e8;
+}
+.fotter__orange {
+  margin-top: 65px;
+  //width: 220px !important;
+  min-width: 220px !important;;
+  height: 40px;
+}
+
+.menu__footer {
+  margin-top: 70px;
+  display: flex;
+  .left-menu {
+    margin-left: 22px;
+    width: 185px;
+    a {
+      color: #cdcdcd;
+      font-size: 10px;
+      line-height: 14px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 20px;
+      letter-spacing: 2.5px;
+      moz-transition: color 0.3s ease-out, opacity 0.3s ease-out 0.5s, visibility 0.3s ease-out 0.5s, letter-spacing 0.3s ease-out;
+      -o-transition: color 0.3s ease-out, opacity 0.3s ease-out 0.5s, visibility 0.3s ease-out 0.5s, letter-spacing 0.3s ease-out;
+      -webkit-transition: color 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out, letter-spacing 0.3s ease-out;
+      -webkit-transition-delay: 0s,.5s,.5s,0s;
+      transition: color 0.3s ease-out, opacity 0.3s ease-out 0.5s, visibility 0.3s ease-out 0.5s, letter-spacing 0.3s ease-out;
+      opacity: 1;
+      &:extend(.type_font__SemiBold);
+      &:hover {
+        color: #ff8d2e;
+        text-decoration: inherit;
+        letter-spacing: 3px;
+      }
+    }
+    .akcii {
+      color: #ff7272;
+    }
+  }
+  .right-menu {
+    margin-left: 56px;
+    a {
+      color: #cdcdcd;
+      font-size: 10px;
+      line-height: 14px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 20px;
+      letter-spacing: 2.5px;
+      moz-transition: color 0.3s ease-out, opacity 0.3s ease-out 0.5s, visibility 0.3s ease-out 0.5s, letter-spacing 0.3s ease-out;
+      -o-transition: color 0.3s ease-out, opacity 0.3s ease-out 0.5s, visibility 0.3s ease-out 0.5s, letter-spacing 0.3s ease-out;
+      -webkit-transition: color 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out, letter-spacing 0.3s ease-out;
+      -webkit-transition-delay: 0s,.5s,.5s,0s;
+      transition: color 0.3s ease-out, opacity 0.3s ease-out 0.5s, visibility 0.3s ease-out 0.5s, letter-spacing 0.3s ease-out;
+      opacity: 1;
+      &:extend(.type_font__SemiBold);
+      &:hover {
+        color: #ff8d2e;
+        text-decoration: inherit;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}
+
+.footer__btn {
+  //margin-top: 68px;
+  float: right;
+}
+
+.footer_section_down {
+  margin-top: 23px;
+}
+
+.footer__down {
+  p {
+    color: #d2d2d2;
+    font-size: 12px;
+    line-height: 16px;
+    &:extend(.type_font__Medium);
+    margin-left: 3px;
+    letter-spacing: 0.8px;
+  }
+  a {
+    color: #d2d2d2;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 48px;
+    letter-spacing: 0.3px;
+    &:extend(.type_font__Medium);
+    &:hover {
+      text-decoration: inherit;
+      color: #ff8d2e;
+    }
+    &:active {
+      text-decoration: inherit;
+      outline: inherit;
+    }
+    &:focus {
+      text-decoration: inherit;
+      outline: inherit;
+    }
+  }
+}
+
+.developer {
+  display: flex;
+  margin-left: -21px;
+  padding-bottom: 15px;
+  p {
+    color: #a4a3a3;
+    font-size: 12px;
+    line-height: 16px;
+    &:extend(.type_font__Medium);
+    margin-right: 30px;
+  }
+  a {
+    margin-top: -12px;
+  }
+}
+.developer a img{
+  width: 125px;
+  height: 40px;
+}

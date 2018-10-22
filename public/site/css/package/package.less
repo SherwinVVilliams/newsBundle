@@ -1,0 +1,277 @@
+.packCreate__top-head {
+  h2 {
+    color: #434343;
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    /* Text style for "Собрать по" */
+    letter-spacing: 0.9px;
+  }
+}
+
+.packCreate__top {
+  background: #d4f7ff;
+  padding: 97px 0 33px;
+}
+.packageCreate__content-row{
+  background: #fafafa;
+}
+.table__closeRow{
+  cursor: pointer;
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+  img{
+    width: 10px;
+    height: 10px;
+    transition: transform 1s linear;
+    &:hover{
+      transform: rotate(360deg);
+    }
+  }
+}
+.counting__table-balance{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.counting__tr{
+  position: relative;
+}
+.counting__table-number{
+  position: relative;
+}
+.packCreate__tableTitle{
+  padding: 30px 0;
+  background: #fff;
+  h2{
+    padding-left: 73px;
+    color: #434343;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}
+.packCreate__list{
+  margin-bottom: 30px;
+  margin-top: 40px;
+  box-shadow: 2px 6px 24px rgba(68, 68, 70, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  .counting__list{
+    padding-bottom: 60px;
+    overflow: auto;
+    border-radius: 0;
+    &:before{
+      border-radius: 0;
+    }
+    margin-top: 0;
+  }
+}
+.packageCreate__comments-title{
+  padding-left: 40px;
+  margin-bottom: 16px;
+  h2{
+    color: #434343;
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+}
+.packageCreate__comments-text{
+  textarea{
+    width: 540px;
+    padding-left: 16px;
+    padding-top: 11px;
+    min-height: 99px;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    outline: 0;
+    &:hover{
+      border: 1px solid #b9f3ff ;
+
+    }
+    &:focus{
+      border: 1px solid #b9f3ff ;
+      background: #fff;
+    }
+  }
+}
+.packageCreate__comments{
+  padding-left: 30px;
+}
+.packageCreate__ListAddress-title{
+  margin-top: 26px;
+  margin-bottom: 17px;
+  span{
+    padding-left: 57px;
+    color: #434343;
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+}
+.packageCreate__address{
+  .invoice__info-title{
+
+    h2{
+      padding-left: 40px;
+    }
+  }
+}
+.packageCreate__ItemAddress{
+  input[type=radio]{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  cursor: pointer;
+  position: relative;
+  width: 160px;
+  height: 115px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 14px;
+  margin-bottom: 20px;
+  .packageCreate__ItemAddress-img{
+    margin-bottom: 20px;
+  }
+  span{
+    position: absolute;
+    display: block;
+    bottom: 17px;
+    color: #434343;
+    font-family: "Montserrat-Regular",sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+.packageCreate__ListAddress{
+  padding: 0 30px;
+  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.packageCreate__ItemAddress.active{
+  background: #fafafa;
+  span{
+    color: #434343;
+    font-family: "Montserrat-Bold",sans-serif;
+    transition: 0.8s;
+  }
+}
+.packageCreate__forms{
+  .profile__wrap{
+    margin-top: 60px;
+  }
+}
+.packageCreate__formInfo{
+  .profile__form-title{
+    padding-bottom: 80px;
+  }
+  .infouser__inp-wrap{
+    width: 73%;
+  }
+}
+.packageCreate__btns{
+  margin-bottom: 110px;
+  .infouser__button1{
+    background: #e7e7e7;
+    &:before,&:after{
+      background: #434343;
+    }
+    color: #434343;
+    &:hover:before,&:hover:after{
+      background: #ff8d2e;
+    }
+  }
+  .buttons__wrap{
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-start;
+    border-top: 2px solid #e7e7e7;
+    border-bottom: none;
+    padding-top: 32px;
+    padding-bottom: 0;
+    button{
+      width: 252px;
+      &:first-child{
+        margin-right: 34px;
+      }
+    }
+  }
+}
+.counting__table-comment{
+  span{
+    max-width: 337px;
+  }
+}
+.lkPackage .counting__table-number{
+  display: table-cell;
+}
+.lkPackage{
+  margin-bottom: 110px;
+  .menuTable{
+    padding-left: 67px;
+  }
+  .counting__table-status{
+    min-width: 150px;
+  }
+  .counting__table-number{
+    min-width: 130px;
+  }
+  .counting__thead-number{
+    min-width: 130px;
+    span{
+      padding-left: 30px;
+    }
+  }
+  .lkorder__top-head{
+    h2{
+      color: #434343;
+      font-family: "Montserrat-SemiBold",sans-serif;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 48px;
+      /* Text style for "Посылки" */
+      letter-spacing: 0.9px;
+    }
+  }
+}
+.lkPackageInfo{
+  .invoice__top{
+    background-color: #d4f7ff;
+  }
+  .infoTrack__info-name{
+    width: 100%;
+  }
+}
+.package__addressInfo{
+  margin-top: 30px;
+  .infoTrack__name-wrap{
+    width: 30%;
+  }
+  .infoTrack__descrip-wrap{
+    width: 65%;
+  }
+}
+.package__inContent{
+  margin-top: 30px;
+}
+.package__btns-wrap{
+  border-color: #e7e7e7;
+  a{
+    letter-spacing: 1.2px;
+  }
+}

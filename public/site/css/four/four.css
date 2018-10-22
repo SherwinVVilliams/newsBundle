@@ -1,0 +1,52 @@
+.less-error-message {
+  display: none!important;
+}
+.four {
+  margin-top: 88px;
+  margin-bottom: 100px;
+  background: #fafafa;
+  position: relative;
+}
+.four:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 6px;
+  background-color: #d4f7ff;
+}
+.four__wrap {
+  border-radius: 5px;
+  border: 5px solid #ff8d2e;
+  padding: 60px 0;
+}
+.four__info-title h2 {
+  color: #434343;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: uppercase;
+  /* Text style for "Страница" */
+  letter-spacing: 1.2px;
+}
+.four__info-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.four__info-link a {
+  color: #434343;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ff8d2e;
+          text-decoration-color: #ff8d2e;
+  text-underline-position: under;
+}
